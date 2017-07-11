@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset=“utf-8”>
+   <title></title>
+   <script src=“http://code.jquery.com/jquery-3.2.1.min.js” integrity=“sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=” crossorigin=“anonymous”></script>
+   <script src=“http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js”></script>
+   <script src=“panzoom.js”></script>
+   <style media=“screen”>
+     .button-container {
+       position: fixed;
+       left: 100px;
+       top: 100px;
+     }
+
+     .button-container button {
+       background-color: pink;
+       height: 60px;
+       width: 60px;
+     }
+   </style>
+ </head>
+ <body>
+   <img class=‘panzoom-elements’ src=“Street_Map-1.jpg”>
+   <button type=“button” name=“button”>Download PDF</button>
+   <div class=“button-container”>
+     <button class=‘in’ type=“button” onclick=“resizeImg()“>+</button>
+     <button class=‘out’ type=“button” onclick=“resizeImg(true)“>-</button>
+   </div>
+
+   <script type=“text/javascript”>
+     $(“.panzoom-elements”).panzoom();
+
+
+     function resizeImg (isOut) {
+       var $image = $(‘img’);
+
+       $image.panzoom(“zoom”, isOut);
+     }
+   </script>
+ </body>
+</html>
