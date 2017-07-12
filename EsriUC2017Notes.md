@@ -69,3 +69,5 @@ Common Properties:
 append PDFs
 `myPDF = arcpy.md.PDFDocumentCreate(r"C:\file\path\newmap.pdf)`
 `myPDF.appendPages(r"C\file\path\Append_map.pdf)`
+creates pdf in memory and appends to it.
+esriurl.com\8899
