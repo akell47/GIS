@@ -46,9 +46,9 @@ Use "List" functions on appropriate objects <br>
 `lyr = mp.listLayers()[0]` <br>
 <b> [0] </b> remember the `[0]`!! <br>
 list by index number first item always 0 <br>
-Common Properties:
+<p>Common Properties:
 - Layers - definition Query, saveACopy, visible
-- Map - AddLayer, ClearSelection, defaultCamera
+- Map - AddLayer, ClearSelection, defaultCamera </p> 
 `m = p.listMaps('Main Map')[0]` wild card <br>
 `print(len(m.listBrokenDataSources()))` <br>
 `lyrFile = arcpy.mp.LayerFile(r"C:\path\path.lyrx")` adds a layer to the Map <br>
@@ -71,3 +71,5 @@ append PDFs <br>
 `myPDF.appendPages(r"C\file\path\Append_map.pdf)` <br>
 creates pdf in memory and appends to it. <br>
 esriurl.com\8899
+
+#### Part 2
