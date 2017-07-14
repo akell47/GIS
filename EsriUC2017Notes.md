@@ -47,8 +47,8 @@ Use "List" functions on appropriate objects <br>
 <b> [0] </b> remember the `[0]`!! <br>
 list by index number first item always 0 <br>
 Common Properties:
-- Layers - definition Query, saveACopy, visible
-- Map - AddLayer, ClearSelection, defaultCamera  <br> 
+-Layers - definition Query, saveACopy, visible <br>
+-Map - AddLayer, ClearSelection, defaultCamera <br>
 `m = p.listMaps('Main Map')[0]` wild card <br>
 `print(len(m.listBrokenDataSources()))` <br>
 `lyrFile = arcpy.mp.LayerFile(r"C:\path\path.lyrx")` adds a layer to the Map <br>
@@ -70,6 +70,46 @@ append PDFs <br>
 `myPDF = arcpy.md.PDFDocumentCreate(r"C:\file\path\newmap.pdf)` <br>
 `myPDF.appendPages(r"C\file\path\Append_map.pdf)` <br>
 creates pdf in memory and appends to it. <br>
-esriurl.com\8899
+<b>esriurl.com/8899 <br>
+esriurl.com/9785 </b>
 
 #### Part 2
+Jeff Barrette & Jeff Moulds <br>
+Can add dynamic tables with Python - unavailable otherwise currently <br>
+Report Lab - pdf authoring tool <br>
+ArcPro - Map, Map Frame, Camera (3D extent), multi-page layouts <br>
+http://pro.arcgis.com/en/pro-app/arcpy/mapping/migratingfrom10xarcpymapping.htm <br>
+```
+import arcpy, os
+folder = r"C:\FileFolder"
+for file in [f for f in os.listdir(os.path.join(folder, 'MXDs'))
+            if os.path.splittext(f[1].lower() == '.mxd')]:
+```
+`aprx.importDocument(r"C:\Project\file\path\map.mxd", include_layout=True)`
+.mapx file - like a layer file - way to share maps across users <br>
+.pagx file - for layout template <br>
+Updating data sources
+```
+aprx = arcpy.mp.ArcGISProject(r'C:\File\Path\map.aprx`)
+aprx.updateConnectionProperties(r'C:\File\Path\layer.gdb,
+                    r'C:\File\Path\server.sde`)
+```
+Changing a folder
+```
+aprx = arcpy.mp.ArcGISProject(r'C:\File\Path\layer.aprx')
+aprx.updateConnectionProperties('DataFolder', 'NewDataFolder')
+```
+Changing Layer files
+```
+lyrx = arcpy.mp.LayerFile(r'C:\Filepath\layer.lyrx')
+lyrx.updateConnectionProperties('DataFolder', 'NewDataFolder')
+```
+
+`aprx.updateConnectionProperties('PFDB.mdb', 'FGDB.gdb', auto_update_joins_and_relates=True)`<br>
+<br>
+New with Pro - the entire layer data source object model is exposed as a Python dictionary.
+```
+import arcpy, pprint
+<br>
+http://pro.arcgis.com/en/pro-app/arcpy/mapping/updatingandfixingdatasources.htm
+<
