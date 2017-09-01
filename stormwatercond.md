@@ -1,2 +1,2 @@
 Structure:
-![alt text](https://github.com/akell47/GIS/images/stormwatercond.JPG "structure")
+![Structure](https://github.com/akell47/GIS/images/structure.JPG "structure")
