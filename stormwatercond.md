@@ -53,9 +53,10 @@ width="250" height="200"/> <br>
 ## How should the city focus its resources so that it can concentrate on fixing infrastructure conditions in the areas that need it the most? <br>
 <p>
 This is an overview showing all the structures and conveyances that have a condition assessment value. Dunwoody has been assessing structures by water basin since 2010, when Dunwoody was incorporated as a city. There are three basins left to assess. <br>
+</p>
 Overview: <img src="https://github.com/akell47/GIS/blob/master/images/Overview.JPG"
 width="550" height="400"/><br>
-</p>
+
 ### The ask for this project: What is the average stormwater condition per subdivision? <br>
 <p>
 Using Esri's software, ArcMap I spatial joined the subdivision layer to structures and conveyances.  I then exported the data to excel and used a pivot table to summarize counts and averages per each subdivision.  I joined the summary table back to the subdivision layer and published the layers to ArcGIS Online. In ArcGIS online I used arcade expression to average the structure and conveyance averages together for the symbology on the map. <br>
