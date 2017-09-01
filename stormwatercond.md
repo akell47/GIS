@@ -10,14 +10,18 @@ Structure:
 <br>
 Conveyance:
 <img src="https://github.com/akell47/GIS/blob/master/images/conveyance.JPG" width="250" height="200"/>
-<br>
+<br><br>
 Dunwoody hires contractors to assess the condition of the stormwater infrastructure.  These are rated as:
 - 1 - IMMEDIATE REPAIR <br>
+<p>
 <img src="https://github.com/akell47/GIS/blob/master/images/Structure_ImmediateRepair.JPG" width="200" height="200"/>
 <img src="https://github.com/akell47/GIS/blob/master/images/Conveyance_ImmediateRepair.JPG" width="200" height="200"/> <br>
+</p>
 - 2 - POOR <br>
+<p>
 <img src="https://github.com/akell47/GIS/blob/master/images/Structure_Poor.JPG" width="200" height="200"/>
 <img src="https://github.com/akell47/GIS/blob/master/images/Conveyance_Poor.JPG" width="200" height="200"/> <br>
+</p>
 - 3 - FAIR
 - 4 - GOOD
 - 5 - EXCELLENT
