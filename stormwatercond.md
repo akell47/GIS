@@ -1,2 +1,2 @@
 Structure:
-![Structure](https://github.com/akell47/GIS/images/structure.JPG "structure")
+![Structure](https://github.com/akell47/GIS/blob/master/images/structure.JPG "structure")
