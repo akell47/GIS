@@ -1,2 +1,2 @@
 Structure:
-![Structure](https://github.com/akell47/GIS/blob/master/images/structure.JPG =20x20)
+<img src="https://github.com/akell47/GIS/blob/master/images/structure.JPG" alt="Structure" style="width: 20px;"/>
