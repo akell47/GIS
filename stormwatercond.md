@@ -81,7 +81,7 @@ Hot spots and density analysis are a great way to visualize geographic trends.  
 I took three approaches with some of the analysis tools available in Esri's ArcGIS Online. <br>
 1 - Hot Spots <br>
 Hot Spots: <img src="https://github.com/akell47/GIS/blob/master/images/HotSpots.JPG"
-width="550" height="300"/> <br>
+width="550" height="400"/> <br>
 2 - Heat Map <br>
 3 - Density Clusters <br>
 </p>
