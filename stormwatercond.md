@@ -78,10 +78,10 @@ width="550" height="300"/>
 ### Second approach - Geospatial Analysis
 
 Hot spots and density analysis are a great way to visualize geographic trends.  People tend to visualize clusters where perhaps there are not clusters. For example is there a cluster in the North West corner of the city? Using geospatial analysis tools, you can be sure of actual clusters.
-I took three approaches with some of the analysis tools available in Esri's ArcGIS Online.
+I took three approaches with some of the analysis tools available in Esri's ArcGIS Online:
 - Hot Spots
 - Heat Map
-- Density Analysis
+- Point Density
 <br><br>
 The maps are just on the stormwater structures, not the conveyances.  The point is to demonstrate different ways to visualize clustering.  For this project it was determined that this approach is not most fitting, for making decisions of where to concentrate repair efforts, so just the structures are shown here.
 <br><br>
@@ -96,3 +96,6 @@ width="550" height="400"/> <br>
 That's right, a Heat Map is not a Hot Spot Map. Hot Spot map tells you where there are statistically significant clusters, where as a heat map is a more basic visualization of clusters. In this map a filter was set where condition is greater than 2.  Poorer conditions do not have greater weight in the heat map here. All conditions of 3, 4, and 5 are treated equally and the heat map shows where there are more of these points.
 <br><br>
 <b>3 - Density Clusters</b> <br>
+Point Density: <img src="https://github.com/akell47/GIS/blob/master/images/PointDensity.JPG"
+width="550" height="400"/> <br>
+Again, this style shows where features are concentrated. Reddish Pink areas have a concentration of structures with less than good conditions and darker red areas have the greatest concentration of stormwater structures with poorer conditions.  This approach smooths out a collection of points into a density polygon. This tool helps to simplify the points and visualize density in a more visually appealing way. Point Density also takes a count field as a parameter.  Of the three Density tools, this one is the best for this purpose. This shows areas with higher concentrations of stormwater structures with more importance placed on the worse conditions.  This way you can see areas that have a concentration of the worst conditions in a way that is easier to understand than Hot Spots and take into account the condition value unlike the Heat Map. 
