@@ -78,10 +78,20 @@ width="550" height="300"/>
 ### Second approach - Geospatial Analysis
 <p>
 Hot spots and density analysis are a great way to visualize geographic trends.  People tend to visualize clusters where perhaps there are not clusters. Using geospatial analysis tools you can be sure of actual clusters.
-I took three approaches with some of the analysis tools available in Esri's ArcGIS Online. <br>
+I took three approaches with some of the analysis tools available in Esri's ArcGIS Online.
+- Hot Spots
+- Heat Map
+- Density Analysis
+The maps are just on the stormwater structures, not the conveyances.  The point is to demonstrate different ways to visualize clustering.  For this project it was determined that this approach is not most fitting, for making decisions of where to concentrate repair efforts, so just the structures are shown here.
+ <br>
 1 - Hot Spots <br>
 Hot Spots: <img src="https://github.com/akell47/GIS/blob/master/images/HotSpots.JPG"
 width="550" height="400"/> <br>
+When using numerical attribute of points the hot spots are points rather than a gridded hot spot layer.  We are looking for concentrations of 3, 4, and 5 values of stromwater structure. The resulting map shows where there are clusters of poor structure conditions. The hot spot tool is going to automatically assign higher value with greater weight.  Since 1 is poor condition and 5 is excellent condition, for this analysis tool a separate column was used with these condition values reversed so that 1 is now "5" and has greater influence in finding hot spots of poorer conditions.
 2 - Heat Map <br>
+Hot Spots: <img src="https://github.com/akell47/GIS/blob/master/images/HeatMap.JPG"
+width="550" height="400"/>
+That's right, a Heat Map is not a Hot Spot Map. In this map a filter was set where condition is greater than 2.  Poorer conditions do not have greater weight in the heat map here. All conditions of 3, 4, and 5 are treated equally and the heat map shows where there are more of these points.
 3 - Density Clusters <br>
+
 </p>
