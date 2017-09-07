@@ -104,4 +104,7 @@ Again, this style shows where features are concentrated. Reddish Pink areas have
 ### Final approach - Spatial Selections
 
 The benefit of the density maps is that one can definitively determine areas that have a cluster of poorer stormwater infrastructure conditions.  This helps minimize subjectivity of visual analysis.  One can look at the north east corner for example and say there is a cluster of structures that need immediate repair, however in actuality there is not a cluster given the other areas. However, the field crew need to know which structures exactly they can repair.  The density maps are cool, but they do not exactly aid in determining actual work orders.  Applications of density maps are better utilized when determining focus areas with a shifting population, such as crime, poverty, fires, or customer marketing.  The structures are in fixed locations.  We need to find which structures and conveyances Public Works can access and repair. <br>
-The city can only repair infrastructure in residential zoned areas and in the right of way.  
+The city can only repair infrastructure in residential zoned areas and in the right of way.  <br>
+Creating Right of Way layer - I used the symmetrical difference tool with the zoning layer which was derived from parcel layer and the city boundary layer. The resulting difference is roughly the right of way.  <br>
+Right ofWay: <img src="https://github.com/akell47/GIS/blob/master/images/RightofWay.JPG"
+width="400" height="400"/> <br>
