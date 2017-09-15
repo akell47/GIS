@@ -108,16 +108,16 @@ The benefit of the density maps is that one can definitively determine areas tha
 Creating Right of Way layer - I used the symmetrical difference tool with the zoning layer which was derived from parcel layer and the city boundary layer. The resulting difference is roughly the right of way.  <br>
 Residential layer - This layer is residential areas that have public roads. There are areas that have townhomes but have public roads. Structures on property with private roads are responsibility of the landowners.
 Right ofWay: <img src="https://github.com/akell47/GIS/blob/master/Stormwater/images/RightofWay.JPG"
-width="450" height="400"/> <br>
+width="500" height="400"/> <br>
 Structures and Conveyances that intersect the Residential layer and the Right of Way layer are the starting point for Stormwater Infrastructure repairs. <br>
 Resulting selection was made available in an esri story map.  <br>
 
-#### Feature
+#### Features
 <b>Custom Pop up</b>
 Using existing attributes in the layer, I created a custom pop-up which displays many attributes in an easy to read format rather than a long list of attributes.
 <br>
 Pop-up Before: <img src="https://github.com/akell47/GIS/blob/master/Stormwater/images/popupBefore.JPG"
-width="100" height="300"/> <br>
+width="200" height="300"/> <br>
 Pop-up Code:
 ```
 {Cover} Cover made of {Material} in {AdjSurface} on a {PhysicaLoc} in {Subdivisio} {CharacterA} area.
@@ -132,4 +132,4 @@ Last inspection on {InspDate02} with a Condition Value of:
  Document Folder Link Code for the link to work in ArcGIS Online: `"<a href="+"'"+!DocFolder!+"'"+">Document Folder Link</a>"` (Python Field Calculator)
  The ULR is in an attribute field as `DocFolder`.  Example: `http://cityworks.dunwoodyga.gov/media/Structures/swS%205450-92-4178/`  The URLs from that field are used to create `<a href='http://cityworks.dunwoodyga.gov/media/Structures/swS 5450-92-4178'>Document Folder Link</a>` <br>
  Pop-up After: <img src="https://github.com/akell47/GIS/blob/master/Stormwater/images/popupAfter.JPG"
- width="100" height="300"/> <br>
+ width="250" height="300"/> <br>
