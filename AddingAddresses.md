@@ -1,7 +1,7 @@
 # Parallel Evenly Spaced points
 ### Adding Apartment Addresses
 
-We have an apartment complex and need to add addresses to them. The private roads within the apartment complex are private roads. We have addresses of the buildings but we are missing the unit numbers. The unit numbers are part of the street number of the address.  Unit 1535, is `1535 [Street Name].`
+We have an apartment complex and need to add addresses to them. We have addresses of the buildings but we are missing the unit numbers. The unit numbers are part of the street number of the address.  For example, Unit 1535, is `1535 [Street Name].`
 ## Tools:
 ArcGIS Pro.
 Existing project opened into ArcGIS Pro project environment, then finalized in ArcMap because I need to manage replicas in ArcMap.
@@ -67,19 +67,19 @@ http://pro.arcgis.com/en/pro-app/help/editing/create-point-features-along-a-line
 <b>Alternative Method:</b> http://support.esri.com/en/technical-article/000012318<br>
 <br>
 <br>
-<b>9-</b> Synchronize Edits to File Geodatabase <br>
+#### Synchronize Edits to File Geodatabase <br>
     As of September 2017 you still have to use <b>ArcMap</b> to have access to necessary Distributed Geodatabase Tools. Can't manage and synchronize replicas in ArcGIS Pro. No overall advantage to editing in ArcGIS Pro VS ArcMap when the final steps have to be preformed in ArcMap anyway. <br>
 <br>
 Distributed Geodatabase Tools ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcMap.JPG"
     width="250" height="220"/><br>
 <br><br>
 Distributed Geodatabase Tools ArcPro: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcPro.JPG"
-        width="200" height="100"/> <br>
+        width="240" height="100"/> <br>
 <br>
 Handy Distributed Geodatabase Toolbar in ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/SynchronizeChangesWizard.JPG"
         width="250" height="250"/>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/Synchronizing.JPG"
-        width="220" height="200"/>
+        width="250" height="250"/>
 <br>
 <br><br>
 # Video
