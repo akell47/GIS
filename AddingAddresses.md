@@ -5,7 +5,7 @@ Existing project opened into ArcGIS Pro project environment
 
 ## Execution:
 1- Import mxd into Pro. <br>
-Add address points <br>
+#### Add address points <br>
 <b>1-</b> Create line feature for points to be added upon. <br>
     Open Create Feature Class Tool > New Line Template in Layers <br>
     <br>
@@ -13,11 +13,13 @@ Add address points <br>
     Start to draw the line, move mouse out to desired angle. Don't finish the line, instead right click > Direction > Copy Direction. <br>
     http://pro.arcgis.com/en/pro-app/help/editing/direction-formats-for-editing.htm <br>
     http://pro.arcgis.com/en/pro-app/help/editing/specify-a-direction-and-distance.htm <br>
-  <sub><sub>
+  <sub>
     East Direction: `N90-00-00E`<br>
     West Direction: `S90-00-00W`<br>
     North Direction: `N0-00-00E`<br>
     South Direction: `S0-00-00W`<br>
+  </sub>
+  <sub><sub>
     Building 8 Slight NE Direction: `N3-32-22W`<br>
     Building 8 Slight SE Direction: `S4-17-21E`<br>
     Building 12 SW Direction: `S63-48-43W`<br>
@@ -27,14 +29,14 @@ Add address points <br>
     Building 18 NE Direction: `N86-50-57E`
     Building 18 SW Direction: `S86-51-49W`
   </sub></sub>
-<br>
+<br><br>
 <b>3-</b> Draw lines <br>
     Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance (Distance = 20ft). <br>
 <br>
 <b>4-</b> Add Address points <br>
-    Edit Tab > Create > Click Secondary Address >Click Points Along a Line> For each line of Row of addresses, Select Line > Check mark Additional Points At start of line and <br>
-    For Three Stories: Check mark At end of line. > Number of Points = 1> Click Create <br>
-    For Four Stories: Check mark At end of line. > Number of Points = 2> Click Create <br>
+    Edit Tab > Create > Click Secondary Address >Click Points Along a Line> For each line of Row of addresses, Select Line > Check mark Additional Points At start of line and at end of line<br>
+    For Three Stories: > Number of Points = 1> Click Create <br>
+    For Four Stories: > Number of Points = 2> Click Create <br>
 <br>
 <b>5-</b> Select > Click on building point > Right Click Attributes > Attributes Window > Right Click > Copy Attributes <br>
 <br>
@@ -50,9 +52,9 @@ https://youtu.be/r2u0-0Y2kPA
 
 ## Before
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/before_addAddresses.JPG"
-width="500" height="400"/> <br>
+width="550" height="400"/> <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/Before_addAddresses_SM.JPG"
 width="600" height="500"/> <br>
 ## After
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/After_addAddresses.JPG"
-width="500" height="400"/> <br>
+width="550" height="400"/> <br>
