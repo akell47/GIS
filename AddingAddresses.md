@@ -23,6 +23,7 @@ Existing project opened into ArcGIS Pro project environment
     South Direction: `S0-00-00W`<br>
   </sub>
   <sub><sub>
+    Notes My Settings:
     Building 8 Slight NE Direction: `N3-32-22W`,
     Slight SE Direction: `S4-17-21E`<br>
     Building 12 SW Direction: `S63-48-43W`,
@@ -38,13 +39,21 @@ Existing project opened into ArcGIS Pro project environment
   </sub></sub>
 <br>
 <b>3-</b> Draw lines <br>
-    Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance (Distance = 20ft). <br>
+    Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance
+<sub><sub>
+    Notes My Settings:
+    2 stories Distance = 15ft
+    3 Stories Distance = 20ft
+    4 Stories Distance = 25ft.
+</sub></sub>
 <br>
 <b>4-</b> Add Address points <br>
-http://pro.arcgis.com/en/pro-app/help/editing/create-point-features-along-a-line.htm
+http://pro.arcgis.com/en/pro-app/help/editing/create-point-features-along-a-line.htm <br>
     Edit Tab > Create > Click Secondary Address >Click Points Along a Line> For each line of Row of addresses, Select Line > Check mark Additional Points At start of line and at end of line<br>
+  <sub>
     For Three Stories: > Number of Points = 1> Click Create <br>
     For Four Stories: > Number of Points = 2> Click Create <br>
+  </sub>
 <br>
 <b>5-</b> Select > Click on building point > Right Click Attributes > Attributes Window > Right Click > Copy Attributes <br>
 <br>
@@ -54,16 +63,18 @@ http://pro.arcgis.com/en/pro-app/help/editing/create-point-features-along-a-line
 <br>
 <b>8-</b> For each address point add the Unit Number in the Street Number Field. <br>
 <br>
-<b>Alternative Method: http://support.esri.com/en/technical-article/000012318 </b>
+<b>Alternative Method:</b> http://support.esri.com/en/technical-article/000012318<br>
 <b>9-</b> Synchronize Edits to File Geodatabase <br>
-    As of September 2017 you still have to use <b>ArcMap</b> to have access to necessary Distributed Geodatabase Tools. Can't manage and syncronize replicas in ArcGIS Pro. No overall advantage to editing in ArcGIS Pro VS ArcMap when the final steps have to be preformed in ArcMap anyway.
+    As of September 2017 you still have to use <b>ArcMap</b> to have access to necessary Distributed Geodatabase Tools. Can't manage and synchronize replicas in ArcGIS Pro. No overall advantage to editing in ArcGIS Pro VS ArcMap when the final steps have to be preformed in ArcMap anyway. <br>
+<br>
 Distributed Geodatabase Tools ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcMap.JPG"
     width="150" height="250"/>
-Distributed Geodatabase Tools ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcPro.JPG"
-        width="150" height="250"/> <br>
-Handy Distributed Geodatabase Toolbar in ArcMap: src="https://github.com/akell47/GIS/blob/master/GISImages/SynchronizeChangesWizard.JPG"
-        width="200" height="200"/>
-src="https://github.com/akell47/GIS/blob/master/GISImages/Synchronizing.JPG"
+Distributed Geodatabase Tools ArcPro: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcPro.JPG"
+        width="200" height="100"/> <br>
+<br>
+Handy Distributed Geodatabase Toolbar in ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/SynchronizeChangesWizard.JPG"
+        width="300" height="100"/>
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/Synchronizing.JPG"
         width="200" height="200"/>
 <br>
 <br>
@@ -76,7 +87,8 @@ width="550" height="400"/> <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/Before_addAddresses_SM.JPG"
 width="600" height="500"/> <br>
 ## After
-<b>Parallel Evenly Spaced Points</b>
+<b>Parallel Evenly Spaced Points</b><br>
+<br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/After_addAddresses.JPG"
 width="550" height="400"/> <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/After_addAddresses_SM.JPG"
