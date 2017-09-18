@@ -13,7 +13,7 @@ Add address points <br>
     Start to draw the line, move mouse out to desired angle. Don't finish the line, instead right click > Direction > Copy Direction. <br>
     http://pro.arcgis.com/en/pro-app/help/editing/direction-formats-for-editing.htm <br>
     http://pro.arcgis.com/en/pro-app/help/editing/specify-a-direction-and-distance.htm <br>
-  <small>  
+  <sub><sub>
     East Direction: `N90-00-00E`<br>
     West Direction: `S90-00-00W`<br>
     North Direction: `N0-00-00E`<br>
@@ -26,7 +26,7 @@ Add address points <br>
     Potomac Buildings NW Direction: `N4-30-50W`<br>
     Building 18 NE Direction: `N86-50-57E`
     Building 18 SW Direction: `S86-51-49W`
-  </small>
+  </sub></sub>
 <br>
 <b>3-</b> Draw lines <br>
     Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance (Distance = 20ft). <br>
@@ -50,9 +50,9 @@ https://youtu.be/r2u0-0Y2kPA
 
 ## Before
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/before_addAddresses.JPG"
-width="400" height="400"/> <br>
+width="500" height="400"/> <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/Before_addAddresses_SM.JPG"
-width="400" height="400"/> <br>
+width="600" height="500"/> <br>
 ## After
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/After_addAddresses.JPG"
-width="400" height="400"/> <br>
+width="500" height="400"/> <br>
