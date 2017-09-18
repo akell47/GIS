@@ -16,14 +16,12 @@ Existing project opened into ArcGIS Pro project environment, then finalized in A
     Start to draw the line, move mouse out to desired angle. Don't finish the line, instead right click > Direction > Copy Direction. <br>
     http://pro.arcgis.com/en/pro-app/help/editing/direction-formats-for-editing.htm <br>
     http://pro.arcgis.com/en/pro-app/help/editing/specify-a-direction-and-distance.htm <br>
-  <sub>
-    East Direction: `N90-00-00E`<br>
-    West Direction: `S90-00-00W`<br>
-    North Direction: `N0-00-00E`<br>
-    South Direction: `S0-00-00W`<br>
-  </sub>
+  - East Direction: `N90-00-00E`<br>
+  - West Direction: `S90-00-00W`<br>
+  - North Direction: `N0-00-00E`<br>
+  - South Direction: `S0-00-00W`<br>
   <sub><sub>
-    Notes My Settings:
+    Notes My Settings: <br>
     Building 8 Slight NE Direction: `N3-32-22W`,
     Slight SE Direction: `S4-17-21E`<br>
     Building 12 SW Direction: `S63-48-43W`,
