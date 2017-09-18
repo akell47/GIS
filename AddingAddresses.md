@@ -68,7 +68,7 @@ http://pro.arcgis.com/en/pro-app/help/editing/create-point-features-along-a-line
     As of September 2017 you still have to use <b>ArcMap</b> to have access to necessary Distributed Geodatabase Tools. Can't manage and synchronize replicas in ArcGIS Pro. No overall advantage to editing in ArcGIS Pro VS ArcMap when the final steps have to be preformed in ArcMap anyway. <br>
 <br>
 Distributed Geodatabase Tools ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcMap.JPG"
-    width="200" height="250"/><br>
+    width="250" height="200"/><br>
 Distributed Geodatabase Tools ArcPro: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcPro.JPG"
         width="200" height="100"/> <br>
 <br>
