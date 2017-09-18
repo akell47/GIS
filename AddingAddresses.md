@@ -6,9 +6,10 @@ Existing project opened into ArcGIS Pro project environment
 ## Execution:
 1- Import mxd into Pro. <br>
 Add address points <br>
-1- Create line feature for points to be added upon. <br>
+<b>1-</b> Create line feature for points to be added upon. <br>
     Open Create Feature Class Tool > New Line Template in Layers <br>
-2- Determine QB Direction to make all lines parallel
+    <br>
+<b>2-</b> Determine QB Direction to make all lines parallel<br>
     Start to draw the line, move mouse out to desired looing angle. Don't finish the line, instead right click > Direction > Copy Direction. <br>
     http://pro.arcgis.com/en/pro-app/help/editing/direction-formats-for-editing.htm <br>
     http://pro.arcgis.com/en/pro-app/help/editing/specify-a-direction-and-distance.htm <br>
@@ -20,28 +21,34 @@ Add address points <br>
     Building 8 Slight SE Direction: `S4-17-21E`<br>
     Building 12 SW Direction: `S63-48-43W`<br>
     Building 12 NE Direction: `N64-03-28E`<br>
-    Potomac Buildings SE Direction: `S3-40-04E`
-    Potomac Buildings NW Direction: `N4-30-50W`
-3- Draw lines <br>
-    Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance (Distance = 20ft). <br>
-4- Add Address points <br>
-    Edit Tab > Create > Click Secondary Address >Click Points Along a Line> For each line of Row of addresses, Select Line > Check mark Additional Points At start of line and <br>
-    For Three Stories: Check mark At end of line. > Number of Points = 1. Click Create <br>
-    For Four Stories: Check mark At end of line. > Number of Points = 2. Click Create <br>
-5- Select > Click on building point > Right Click Attributes > Attributes Window > Right Click > Copy Attributes <br>
-6- Select > Draw a square around the address points for that building <br>
-7- Attributes > Right Click Address > Paste Attributes <br>
-8- For each address point add the Unit Number in the Street Number Field. <br>
+    Potomac Buildings SE Direction: `S3-40-04E`<br>
+    Potomac Buildings NW Direction: `N4-30-50W`<br>
 <br>
-
+<b>3-</b> Draw lines <br>
+    Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance (Distance = 20ft). <br>
+<br>
+<b>4-</b> Add Address points <br>
+    Edit Tab > Create > Click Secondary Address >Click Points Along a Line> For each line of Row of addresses, Select Line > Check mark Additional Points At start of line and <br>
+    For Three Stories: Check mark At end of line. > Number of Points = 1> Click Create <br>
+    For Four Stories: Check mark At end of line. > Number of Points = 2> Click Create <br>
+<br>
+<b>5-</b> Select > Click on building point > Right Click Attributes > Attributes Window > Right Click > Copy Attributes <br>
+<br>
+<b>6-</b> Select > Draw a square around the address points for that building <br>
+<br>
+<b>7-</b> Attributes > Right Click Address > Paste Attributes <br>
+<br>
+<b>8-</b> For each address point add the Unit Number in the Street Number Field. <br>
+<br>
+<br>
 ### Video
 https://youtu.be/r2u0-0Y2kPA
 
 ## Before
-<img src="https://github.com/akell47/GIS/blob/master/GISimages/before_addAddresses.JPG"
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/before_addAddresses.JPG"
 width="400" height="400"/> <br>
-<img src="https://github.com/akell47/GIS/blob/master/GISimages/Before_addAddresses_SM.JPG"
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/Before_addAddresses_SM.JPG"
 width="400" height="400"/> <br>
 ## After
-<img src="https://github.com/akell47/GIS/blob/master/GISimages/After_addAddresses.JPG"
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/After_addAddresses.JPG"
 width="400" height="400"/> <br>
