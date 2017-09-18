@@ -10,9 +10,10 @@ Add address points <br>
     Open Create Feature Class Tool > New Line Template in Layers <br>
     <br>
 <b>2-</b> Determine QB Direction to make all lines parallel<br>
-    Start to draw the line, move mouse out to desired looing angle. Don't finish the line, instead right click > Direction > Copy Direction. <br>
+    Start to draw the line, move mouse out to desired angle. Don't finish the line, instead right click > Direction > Copy Direction. <br>
     http://pro.arcgis.com/en/pro-app/help/editing/direction-formats-for-editing.htm <br>
     http://pro.arcgis.com/en/pro-app/help/editing/specify-a-direction-and-distance.htm <br>
+  <small>  
     East Direction: `N90-00-00E`<br>
     West Direction: `S90-00-00W`<br>
     North Direction: `N0-00-00E`<br>
@@ -23,6 +24,9 @@ Add address points <br>
     Building 12 NE Direction: `N64-03-28E`<br>
     Potomac Buildings SE Direction: `S3-40-04E`<br>
     Potomac Buildings NW Direction: `N4-30-50W`<br>
+    Building 18 NE Direction: `N86-50-57E`
+    Building 18 SW Direction: `S86-51-49W`
+  </small>
 <br>
 <b>3-</b> Draw lines <br>
     Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance (Distance = 20ft). <br>
