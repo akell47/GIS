@@ -4,7 +4,7 @@
 We have an apartment complex and need to add addresses to them. The private roads within the apartment complex are private roads. We have addresses of the buildings but we are missing the unit numbers. The unit numbers are part of the street number of the address.  Unit 1535, is `1535 [Street Name].`
 ## Tools:
 ArcGIS Pro.
-Existing project opened into ArcGIS Pro project environment
+Existing project opened into ArcGIS Pro project environment, then finalized in ArcMap because I need to manage replicas in ArcMap.
 
 ## Execution:
 1- Import mxd into Pro. <br>
@@ -40,11 +40,12 @@ Existing project opened into ArcGIS Pro project environment
 <br>
 <b>3-</b> Draw lines <br>
     Edit Tab > Create > Click point for point one of line, right click Direction and Distance, type in Direction and Distance
+<br>
 <sub><sub>
-    Notes My Settings:
-    2 stories Distance = 15ft
-    3 Stories Distance = 20ft
-    4 Stories Distance = 25ft.
+    Notes My Settings: <br>
+    2 stories Distance = `15ft` <br>
+    3 Stories Distance = `20ft` <br>
+    4 Stories Distance = `25ft` <br>
 </sub></sub>
 <br>
 <b>4-</b> Add Address points <br>
@@ -64,11 +65,14 @@ http://pro.arcgis.com/en/pro-app/help/editing/create-point-features-along-a-line
 <b>8-</b> For each address point add the Unit Number in the Street Number Field. <br>
 <br>
 <b>Alternative Method:</b> http://support.esri.com/en/technical-article/000012318<br>
+<br>
+<br>
 <b>9-</b> Synchronize Edits to File Geodatabase <br>
     As of September 2017 you still have to use <b>ArcMap</b> to have access to necessary Distributed Geodatabase Tools. Can't manage and synchronize replicas in ArcGIS Pro. No overall advantage to editing in ArcGIS Pro VS ArcMap when the final steps have to be preformed in ArcMap anyway. <br>
 <br>
 Distributed Geodatabase Tools ArcMap: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcMap.JPG"
-    width="250" height="200"/><br>
+    width="250" height="220"/><br>
+<br><br>
 Distributed Geodatabase Tools ArcPro: <img src="https://github.com/akell47/GIS/blob/master/GISImages/DistributedGeodatabaseToolsArcPro.JPG"
         width="200" height="100"/> <br>
 <br>
@@ -77,16 +81,16 @@ Handy Distributed Geodatabase Toolbar in ArcMap: <img src="https://github.com/ak
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/Synchronizing.JPG"
         width="220" height="200"/>
 <br>
-<br>
-### Video
+<br><br>
+# Video
 https://youtu.be/r2u0-0Y2kPA
-
-## Before
+<br><br>
+# Before
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/before_addAddresses.JPG"
 width="550" height="400"/> <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/Before_addAddresses_SM.JPG"
 width="600" height="500"/> <br>
-## After
+# After
 <b>Parallel Evenly Spaced Points</b><br>
 <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/After_addAddresses.JPG"
