@@ -1,2 +1,2 @@
-banner dimensions: 960 x 180 px
-icon dimension:
+- banner dimensions: 960 x 180 px
+- icon dimension: 600 x 400 px
