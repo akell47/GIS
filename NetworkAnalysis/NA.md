@@ -50,7 +50,14 @@ def AvoidPrivate():
         output=True
     return output
 ```
-Call the function in the box Value = `AvoidePrivate()`<br>
+```
+def AvoidPrivate():
+    if !IsPrivate!=='Y':
+        return True
+    else:
+        return False
+```
+Call the function in the box Value = `AvoidePrivate()`<br><br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
 width="700" height="430"/><br>
 <br>
@@ -61,4 +68,11 @@ Add Func_Class, Usage Type: Hierarchy <br>
 Under Travel Modes Tab > Travel Mode: add "walk", Type: Walk, Impedance: Miles (Miles), Time Attribute: walkMinutes (Minutes), U-Turns at Junctions: Allowed, Use Hierarchy: uncheck, Restrictions: check IsPrivate <br>
 Close ArcCatalog <br>
 #### Network Analysis
-Open ArcMap
+
+Going to create a half-mile walking distance around Marta Bus stops, Libraries, and Parks <br>
+Open ArcMap <br>
+Make sure Network Analyst extension is check marked. Customize > Extensions <br>
+From Catalog tree, drag and drop Network Dataset into the map > Click Yes for Do you also want to add all feature classes that participate in Street_ND to the map. <br>
+Open Network Analyst toolbar > Network Analyst Drop Down > Click New Service Area > Click the icon with the square and the flag. <br>
+Before you Load Locations, Click the little square button in the upper right corner of the Network Analyst window to open the Layer Properties window.  Under the Network Locations tab set the Name Property so when you Load Locations they will have names that make sense. Under Candidate Fields type the field name you want to label the locations with. <br>
+Load Facilities for Service Area > Right Click Facilities (0) > Load Locations> Load From: Select Layer The name should show up under Field.  <br>
