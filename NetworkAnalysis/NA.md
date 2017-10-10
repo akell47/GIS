@@ -19,10 +19,11 @@ http://desktop.arcgis.com/en/arcmap/latest/extensions/network-analyst/types-of-e
 <br><br>
 
 #### Prep Data
+Open ArcCatalog <br>
 Seems like you must prep data before creating the Network Dataset.  Within SDE geodatabase Feature Dataset cannot Register data as versioned (Right click Feature Dataset> Manage > Register as Versioned) once network dataset is created in the Feature Dataset.  If you have a Network Dataset already built you have to delete Network Dataset then add / edit fields.
 <br><br>
 <b>Distance Field</b><br>
-Add Field > Miles, type: Double. Start edit session. Right click field <b> Calculate Geometry</b>.<br>
+Add Field > Miles, type: Double. Start edit session. Right click field Calculate Geometry.<br>
 Property: Length, Units: Miles
 <br><br>
 <b>Private Roads</b><br>
@@ -37,7 +38,8 @@ Categorize Roads Ordinally as 1,2,3.  Primary Roads lower numbers (1 highest lev
 Stop Edit Session, Add Field > Func_Class type: Short Integer. Start edit session. Field Calculator 1,2,3 roads accordingly.
 
 #### Build Network Dataset
-Open ArcCatalog. Streets layer must be part of a Feature Dataset. Right click Feature Dataset > New > Network Dataset <br>
+Open ArcCatalog.<br>
+Streets layer must be part of a Feature Dataset. Right click Feature Dataset > New > Network Dataset <br>
 Under the Attributes Tab of the Network Dataset wizard add a parameter Click Add... type the field name exactly the same as the field name. Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
 Pre-Logic Script Code:
 ```
@@ -48,8 +50,8 @@ def AvoidPrivate():
     return output
 ```
 Call the function in the box Value = `AvoidePrivate()`<br>
-<img src="https://github.com/akell47/GIS/blob/master/Stormwater/images/LakesideNorth.JPG"
-width="550" height="300"/><br>
+<img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
+width="550" height="400"/><br>
 <br>
 Add walkMinutes, Usage Type: Cost, Units: minutes<br>
 <br>
