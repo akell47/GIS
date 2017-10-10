@@ -52,7 +52,7 @@ def AvoidPrivate():
 ```
 Call the function in the box Value = `AvoidePrivate()`<br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
-width="550" height="500"/><br>
+width="550" height="300"/><br>
 <br>
 Add walkMinutes, Usage Type: Cost, Units: minutes<br>
 <br>
