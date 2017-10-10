@@ -19,7 +19,7 @@ http://desktop.arcgis.com/en/arcmap/latest/extensions/network-analyst/types-of-e
 <br><br>
 
 #### Prep Data
-Open ArcCatalog <br>
+Open ArcMap <br>
 Seems like you must prep data before creating the Network Dataset.  Within SDE geodatabase Feature Dataset cannot Register data as versioned (Right click Feature Dataset> Manage > Register as Versioned) once network dataset is created in the Feature Dataset.  If you have a Network Dataset already built you have to delete Network Dataset then add / edit fields.
 <br><br>
 <b>Distance Field</b><br>
@@ -35,7 +35,8 @@ Stop Edit Session. Add Field > walkMinutes, type Double. Start edit session. Rig
 <br><br>
 <b>Hierarchy Class</b>
 Categorize Roads Ordinally as 1,2,3.  Primary Roads lower numbers (1 highest level), Secondary Roads, middle number (2 middle level), and Local Roads highest number (3 lowest level).
-Stop Edit Session, Add Field > Func_Class type: Short Integer. Start edit session. Field Calculator 1,2,3 roads accordingly.
+Stop Edit Session, Add Field > Func_Class type: Short Integer. Start edit session. Field Calculator 1,2,3 roads accordingly.<br>
+Close ArcMap<br>
 
 #### Build Network Dataset
 Open ArcCatalog.<br>
@@ -51,13 +52,13 @@ def AvoidPrivate():
 ```
 Call the function in the box Value = `AvoidePrivate()`<br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
-width="550" height="400"/><br>
+width="550" height="500"/><br>
 <br>
 Add walkMinutes, Usage Type: Cost, Units: minutes<br>
 <br>
 Add Func_Class, Usage Type: Hierarchy <br>
 <br>
 Under Travel Modes Tab > Travel Mode: add "walk", Type: Walk, Impedance: Miles (Miles), Time Attribute: walkMinutes (Minutes), U-Turns at Junctions: Allowed, Use Hierarchy: uncheck, Restrictions: check IsPrivate <br>
-
+Close ArcCatalog <br>
 #### Network Analysis
 Open ArcMap
