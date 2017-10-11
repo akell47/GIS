@@ -41,8 +41,11 @@ Close ArcMap<br>
 
 #### Build Network Dataset
 Open ArcCatalog.<br>
-Streets layer must be part of a Feature Dataset. Right click Feature Dataset > New > Network Dataset <br>
-Under the Attributes Tab of the Network Dataset wizard add a parameter Click Add... type the field name exactly the same as the field name. Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
+Streets layer must be part of a Feature Dataset. <br>
+Right click Feature Dataset > New > Network Dataset <br>
+Under the Attributes Tab of the Network Dataset wizard add the attribute parameters > Click Add... type the field name exactly the same as the field name. <br>
+- Private Road Restriction
+Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
 Pre-Logic Script Code:
 ```
 def AvoidPrivate(field):
@@ -56,10 +59,11 @@ Call the function in the box Value = `AvoidPrivate(!IsPrivate!)`<br><br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
 width="700" height="430"/><br>
 <br>
-Add walkMinutes, Usage Type: Cost, Units: minutes<br>
+- Add walkMinutes, Usage Type: Cost, Units: minutes<br>
 <br>
-Add Func_Class, Usage Type: Hierarchy <br>
+- Add Func_Class, Usage Type: Hierarchy <br>
 <br>
+- Set Travel Mode Settings
 Under Travel Modes Tab > Travel Mode: add "walk", Type: Walk, Impedance: Miles (Miles), Time Attribute: walkMinutes (Minutes), U-Turns at Junctions: Allowed, Use Hierarchy: uncheck, Restrictions: check IsPrivate <br>
 Close ArcCatalog <br>
 
@@ -85,5 +89,5 @@ Set the settings for Lines and or Polygon Generation. I want to create lines ins
 <br>
 <b>Now you can click the solve button!</b> in the Network Analyst toolbar.<br>
 <br>
-<img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/NA_solvef.JPG"
-width="1400" height="660"/><br>
+<img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/NA_solve.JPG"
+width="1000" height="500"/><br>
