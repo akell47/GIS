@@ -6,7 +6,7 @@ streets layer
 
 ### Network Analysis Parameters
 - Calculate distance field
-- Private roads restriction
+- Road restrictions
 - Walk time / drive time
 - Hierarchy Class
 
@@ -59,7 +59,7 @@ Call the function in the box Value = `AvoidPrivate(!IsPrivate!)`<br><br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
 width="700" height="430"/><br>
 <br>
-Alternatively you can make a field with multiple categories return a Boolean statement. I modified the restriction off an existing attribute which has the Street classifications to restrict highways, interstate ramps, and private roads. When you go back and modify the attributes in the network dataset, right click the Network Dataset feature in the Feature Dataset and click build to implement the changes. You do not need to re-add the network dataset in ArcMap.
+Alternatively you can make a field with multiple categories return a Boolean statement. I modified the restriction off an existing attribute which has the Street classifications to restrict highways, interstate ramps, and private roads. When you go back and modify the attributes in the network dataset, right click the Network Dataset feature in the Feature Dataset and click build to implement the changes. You do not need to re-add the network dataset in ArcMap.<br>
 Pre-Logic Script Code in Python:
 ```
 def Avoid(field):
@@ -89,10 +89,10 @@ Going to create a half-mile walking distance around Marta Bus stops, Libraries, 
 Open ArcMap <br>
 Make sure Network Analyst extension is check marked. Customize > Extensions <br>
 From Catalog tree, drag and drop Network Dataset into the map > Click Yes for Do you also want to add all feature classes that participate in Street_ND to the map. <br>
-Before running anything, you can use the identify tool to make sure that the restrictions are set properly. In the identify tool select the Network Dataset layer under the Identify from drop down. Select some streets to test the restrictors were coded correctly.
-Open Network Analyst toolbar > Network Analyst Drop Down > Click New Service Area > Click the icon with the square and the flag to open the Network Analyst window. <br>
+Before running anything, you can use the identify tool to make sure that the restrictions are set properly. In the identify tool select the Network Dataset layer under the Identify from drop down. Select some streets to test the restrictors were coded correctly.<br>
 Identify: <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/Identify.JPG"
 width="400" height="330"/><br>
+Open Network Analyst toolbar > Network Analyst Drop Down > Click New Service Area > Click the icon with the square and the flag to open the Network Analyst window. <br>
 Before you Load Locations, Click the little square button in the upper right corner of the Network Analyst window to open the Layer Properties window.  Under the Network Locations tab set the Name Property so when you Load Locations they will have names that make sense. Under Candidate Fields type the field name you want to label the locations with. <br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/LocationNames.JPG"
 width="600" height="470"/><br>
@@ -102,6 +102,7 @@ Add additional locations with the little flag icon with the little + sign. <br>
 Set the Analysis Settings as desired.
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AnalysisSettings.JPG"
 width="530" height="420"/><br>
+My Class Restriction includes both Highways and Private Roads as restrictions so I do not need to select the previously created one just for Private roads. 
 <br>
 Set the settings for Lines and or Polygon Generation. I want to create lines instead of the default polygons for the Service Area. <br>
 <br>
