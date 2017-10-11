@@ -44,7 +44,7 @@ Open ArcCatalog.<br>
 Streets layer must be part of a Feature Dataset. <br>
 Right click Feature Dataset > New > Network Dataset <br>
 Under the Attributes Tab of the Network Dataset wizard add the attribute parameters > Click Add... type the field name exactly the same as the field name. <br>
-- Private Road Restriction
+- Private Road Restriction <br>
 Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
 Pre-Logic Script Code:
 ```
@@ -60,10 +60,10 @@ Call the function in the box Value = `AvoidPrivate(!IsPrivate!)`<br><br>
 width="700" height="430"/><br>
 <br>
 - Add walkMinutes, Usage Type: Cost, Units: minutes<br>
-<br>
+
 - Add Func_Class, Usage Type: Hierarchy <br>
-<br>
-- Set Travel Mode Settings
+
+- Set Travel Mode Settings <br>
 Under Travel Modes Tab > Travel Mode: add "walk", Type: Walk, Impedance: Miles (Miles), Time Attribute: walkMinutes (Minutes), U-Turns at Junctions: Allowed, Use Hierarchy: uncheck, Restrictions: check IsPrivate <br>
 Close ArcCatalog <br>
 
@@ -90,4 +90,4 @@ Set the settings for Lines and or Polygon Generation. I want to create lines ins
 <b>Now you can click the solve button!</b> in the Network Analyst toolbar.<br>
 <br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/NA_solve.JPG"
-width="1000" height="500"/><br>
+width="1000" height="480"/><br>
