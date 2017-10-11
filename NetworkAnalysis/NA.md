@@ -19,7 +19,7 @@ http://desktop.arcgis.com/en/arcmap/latest/extensions/network-analyst/types-of-e
 attribute restrictions -> http://support.esri.com/en/technical-article/000011889 <br>
 <br><br>
 
-#### Prep Data
+## Prep Data
 Open ArcMap <br>
 Seems like you must prep data before creating the Network Dataset.  Within SDE geodatabase Feature Dataset cannot Register data as versioned (Right click Feature Dataset> Manage > Register as Versioned) once network dataset is created in the Feature Dataset.  If you have a Network Dataset already built you have to delete Network Dataset then add / edit fields.
 <br><br>
@@ -39,7 +39,7 @@ Categorize Roads Ordinally as 1,2,3.  Primary Roads lower numbers (1 highest lev
 Stop Edit Session, Add Field > Func_Class type: Short Integer. Start edit session. Field Calculator 1,2,3 roads accordingly.<br>
 Close ArcMap<br>
 
-#### Build Network Dataset
+## Build Network Dataset
 Open ArcCatalog.<br>
 Streets layer must be part of a Feature Dataset. <br>
 Right click Feature Dataset > New > Network Dataset <br>
