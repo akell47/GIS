@@ -45,8 +45,10 @@ Streets layer must be part of a Feature Dataset. <br>
 Right click Feature Dataset > New > Network Dataset <br>
 Under the Attributes Tab of the Network Dataset wizard add the attribute parameters > Click Add... type the field name exactly the same as the field name. <br>
 - Private Road Restriction <br>
+<br>
 Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
-Pre-Logic Script Code:
+<br>
+Pre-Logic Script Code in Python:
 ```
 def AvoidPrivate(field):
     if field in ('Y'):
@@ -69,7 +71,7 @@ Close ArcCatalog <br>
 
 #### Network Analysis
 
-Going to create a half-mile walking distance around Marta Bus stops, Libraries, Parks, and Schools. <br>
+Going to create a half-mile walking distance around Marta Bus stops, Libraries, Parks, and Schools. I'm not using the heirchy and minutes here.<br>
 <br>
 Open ArcMap <br>
 Make sure Network Analyst extension is check marked. Customize > Extensions <br>
