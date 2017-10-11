@@ -31,7 +31,7 @@ Property: Length, Units: Miles
 Stop Edit Session. Add Field > IsPrivate, type: Text, Length: 1. Start edit session. Select private roads, Right click IsPrivate field > Field Calculator > `IsPrivate = "Y"` > Click Switch Selection > Field Calculator > `IsPrivate = "N"`.
 <br><br>
 <b>Walk time</b><br>
-`minutes = Miles / [speed]` speed is in miles per hour. If you have a Feet Field. Using average walk speed of 3.1 miles per hour. `Walk time in minutes  = ([Miles] / 3.1) * 60` <br>
+`minutes = Miles / [speed]` speed is in miles per hour. Using average walk speed of 3.1 miles per hour. `Walk time in minutes  = ([Miles] / 3.1) * 60` <br>
 Stop Edit Session. Add Field > walkMinutes, type Double. Start edit session. Right click field > Field Calculator > `walkMinutes = ([Miles] / 3.1) * 60`
 <br><br>
 <b>Hierarchy Class</b>
@@ -45,10 +45,9 @@ Streets layer must be part of a Feature Dataset. <br>
 Right click Feature Dataset > New > Network Dataset <br>
 Under the Attributes Tab of the Network Dataset wizard add the attribute parameters > Click Add... type the field name exactly the same as the field name. <br>
 - Private Road Restriction <br>
-<br>
 Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
 <br>
-Pre-Logic Script Code in Python:
+Pre-Logic Script Code in Python: <br>
 ```
 def AvoidPrivate(field):
     if field in ('Y'):
