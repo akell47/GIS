@@ -46,8 +46,7 @@ Right click Feature Dataset > New > Network Dataset <br>
 Under the Attributes Tab of the Network Dataset wizard add the attribute parameters > Click Add... type the field name exactly the same as the field name. <br>
 - Private Road Restriction <br>
 Once added click Evaluators...> In the Evaluators window change Type to Field. Click the little hand button under the "X".  Set Field Evaluator in the Code block.<br>
-<br>
-Pre-Logic Script Code in Python: <br>
+Pre-Logic Script Code in Python:
 ```
 def AvoidPrivate(field):
     if field in ('Y'):
