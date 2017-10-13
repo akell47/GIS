@@ -49,11 +49,12 @@ Once added click Evaluators...> In the Evaluators window change Type to Field. C
 Pre-Logic Script Code in Python:
 ```
 def AvoidPrivate(field):
-    if field in ('Y'):
-        restricted = True
-    elif field in ('N'):
-        restricted = False
-    return restricted
+    if field == 'Y':
+        return True
+    elif field == 'N':
+        return False
+    else
+        raise ValueError('AvoidPrivate can only accept `Y` or a `N`')
 ```
 Call the function in the box Value = `AvoidPrivate(!IsPrivate!)`<br><br>
 <img src="https://github.com/akell47/GIS/blob/master/NetworkAnalysis/images/AvoidPrivate.JPG"
@@ -63,15 +64,10 @@ Alternatively you can make a field with multiple categories return a Boolean sta
 Pre-Logic Script Code in Python:
 ```
 def Avoid(field):
-    if field in ('Interstate Principal Arterial'):
-        restricted = True
-    elif field in ('Interstate Ramp'):
-        restricted = True
-    elif field in ('Private'):
-        restricted = True
+    if field in ('Interstate Principal Arterial', 'Interstate Ramp', 'Private'):
+        return True
     else:
-        restricted = False
-    return restricted
+        return False
 ```
 
 - Add walkMinutes, Usage Type: Cost, Units: minutes<br>
