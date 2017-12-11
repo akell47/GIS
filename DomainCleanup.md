@@ -88,7 +88,7 @@ Don't worry you don't have to use Pandas - you can just print out two lists from
         width="164" height="53"/> <br>
 #### All Domains:
 **first remember to `import arcpy`**
-1. Define the path to the geodatabase and define it to a variable name. 
+1. Define the path to the geodatabase and define it to a variable name.
 `domains = arcpy.da.ListDomains("C:\\Users\\Amber.Keller\\AppData\\Roaming\\ESRI\\Desktop10.4\\ArcCatalog\\Connection to DunGIS as sa.sde")`
 This is how mine looks, remember file path is found by right clicking your GDB and is under the General tab. Remember two backslashes or one forward slash.
 2. ```
