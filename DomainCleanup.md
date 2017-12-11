@@ -84,7 +84,7 @@ Now we have a list of Domains that are currently in use and not in use using Pyt
 <br><br><br>
 ## The Easier Way  
 Don't worry you don't have to use Pandas - you can just print out two lists from the Python window and copy/past into excel to compare the two Lists. If you haven't used Python before, you can still do this. Just open up the little Python window and follow these instructions.
-<br> <img src="https://github.com/akell47/GIS/blob/master/GISImages/pywindow.JPG"
+<br> <img src="https://github.com/akell47/GIS/blob/master/GISImages/pywindow.jpg"
         width="164" height="53"/> <br>
 #### All Domains:
 **first remember to `import arcpy`**
