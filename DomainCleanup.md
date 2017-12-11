@@ -91,11 +91,13 @@ Don't worry you don't have to use Pandas - you can just print out two lists from
 1. Define the path to the geodatabase and define it to a variable name.
 `domains = arcpy.da.ListDomains("C:\\Users\\Amber.Keller\\AppData\\Roaming\\ESRI\\Desktop10.4\\ArcCatalog\\Connection to DunGIS as sa.sde")`
 This is how mine looks, remember file path is found by right clicking your GDB and is under the General tab. Remember two backslashes or one forward slash.
-2. ```
+2. .
+```
   for domain in domains:
     print(domain.name)
   ```
 3. press Enter - copy/paste into excel
+
 #### Domains In Use
 1. Define the workspace `arcpy.env.workspace = (r'C:\\Users\\Amber.Keller\\AppData\\Roaming\\ESRI\\Desktop10.4\\ArcCatalog\\Connection to DunGIS as sa.sde')`
 2. Use this awesome code from Brian on gis.stackexchange.com from 2011  https://gis.stackexchange.com/questions/9981/listing-feature-classes-with-active-domains <br>
