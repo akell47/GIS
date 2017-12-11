@@ -51,8 +51,8 @@ def allDomains():
 print (allDomains())
 ```
 ### Pandas DataFrame
-For each list of Domains, (Domains in Use, Domains Not in Use) turn into a Pandas DataFrame.
-<b>In Use</b>
+For each list of Domains, (Domains in Use, Domains Not in Use) turn into a Pandas DataFrame. <br>
+<b>Domains In Use</b>
 ```
 inUse = DomainsinUse()
 dfInUse = pd.DataFrame(inUse)
