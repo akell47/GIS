@@ -21,3 +21,33 @@ for domain in domains:
 
 ### List out Feature Classes with Active domains
 https://gis.stackexchange.com/questions/9981/listing-feature-classes-with-active-domains
+I want to return a list so that I can convert the list into a Pandas Data Frame object. To change the output into a list object you append the output to an empty list `[]`
+<b>Domains in Use</b>
+```
+#Get list of feature classes in geodatabase
+def DomainsinUse():
+    domainList = []
+    FCs = arcpy.ListFeatureClasses()
+#Loop through feature classes in list
+    for FC in FCs:
+    #List fields in feature class
+        fields = arcpy.ListFields(FC)
+    #Loop through fields
+        for field in fields:
+        #Check if field has domain
+            if field.domain != "":
+            #domain name
+                domainList.append(field.domain)
+    return domainList
+
+print (DomainsinUse())
+```
+<b> All the Domains </b>
+```
+def allDomains():
+    all_Domains = []
+    for domain in domains:
+        all_Domains.append(domain.name)
+    return all_Domains
+print (allDomains())
+```
