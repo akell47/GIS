@@ -45,12 +45,12 @@ Click on "New Dataset" it will upload then you will see your data then click "Cr
  <br>
 <b> basemap </b><br>
 Now we are going to bring in the mapbox basemap.  Click on basemaps then scroll through the basemaps in Source and click on "MAPBOX" Then under Style click the + for Add. You will then be asked for your Map ID and Access Token. To find this go back to your mapbox styles.  In the style you created above click the stacked lines next to Menu - click "Share, develop & use" <br>
-Copy the Integration URL <img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="300" height="400"/> <br>
+Copy the Integration URL <img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="400" height="300"/> <br>
 Paste that into the box in carto for Map ID/URL.  Within that URL find the part after `access_token=` copy and paste that into the Access Token box. Then click ADD BASEMAP. <br>
 The mapbox basemap should now be in your carto map. <br>
 <b> icon </b><br>
 Now click on your dataset and we are going to change the icon. Under Style click the color in SIZE/COLOR then click "IMG" then click "Show full collections." <br>
-src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="300" height="450"/> <br>
+< img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="300" height="450"/> <br>
 Now you should see a bunch of icons and click "UPLOAD FILE." https://gis.stackexchange.com/questions/132276/how-to-use-custom-marker-symbols-in-cartodb <br>
 This is supposed to work but the PNG and the SVG image I am uploading is not working... <br>
 <b>Pop-up</b><br>
