@@ -25,14 +25,15 @@ id,	name,	address,	zip_code,	city,	state
 
 ### Mapbox
 Create an account. <br>
-Now that you have latitude and longitude, create a new csv file with a field for `labels` that you want to display in the basemap. Click on your profile and go to *Studio*. Go to the datasets tab to upload the geocoded addresses. Give the dataset a name then it will open into a map then you click import to upload your data. Then just click the button to go back to home.  You do not need to upload a dataset to mapbox to use their basemap, but it adds additional customization options to the points we want to display in the final map.<b> Adding dataset to mapbox is totally optional at this point you can just slect your style and that is it</b><br>
 Within your "studio" click on the home tab, then scroll down under the heading "Get Started" and click "Explore Styles."  (North Star is my favorite.) Click "Add this style."  The style you select is now in your profile under the "styles" tab. <b>You can stop here rest is optional/ not necessary </b> <br>
+<b> Labels *Optional* </b> <br>
+<b> Adding dataset to mapbox is totally optional at this point you can just select your style and that is it</b> <br>
+Now that you have latitude and longitude, create a new csv file with a field for `labels` that you want to display in the basemap. Click on your profile and go to *Studio*. Go to the datasets tab to upload the geocoded addresses. Give the dataset a name then it will open into a map then you click import to upload your data. Then just click the button to go back to home.  You do not need to upload a dataset to mapbox to use their basemap, but it adds additional customization options to the points we want to display in the final map.
 To add the points from your dataset click on the button `+Layer` Then click "No tileset, click to select" then click "New Tileset" then "Create from dataset" and "Export." The layer will not appear - now you have to go back to "tilesets" under the Studio tab and click on the stacked lines next to Menu and click "Add tileset to style" Click the style (map) want to add your points to. <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxdataset.JPG" width="1000" height="550"/> <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/adddatatomap.JPG" width="1000" height="300"/> <br>
-Your map should open back up but if not go back to your *styles* tab and then click on your style (map). The map background will look weird, click add layer. You will now see your points and can style the points. <br>
-<b> Labels *Optional* </b> <br>
-Now we are going to use our dataset to add labels.  Change the dataset from circle to tet by selecting your new dataset, click "Select Data" and change type to "T Symbol." <br>
+Your map should open back up but if not go back to your *styles* tab and then click on your style (map). The map background will look weird, click add layer. You will now see your points and can style the points on your pretty mapbox basemap. <br>
+Now we are going to use our dataset to add labels.  Change the dataset from circle to text by selecting your new dataset, click "Select Data" and change type to "T Symbol." <br>
 <img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxlabel.JPG" width="450" height="400"/> <br>
 Click on "Style" set Text field value to your column with labels. <br><br>
 Alternatively you can add labels in carto instead. The benefit of adding your labels in MapBox instead of carto is that the basemap labels will move out of the way/ not interfere with your data's labels. The disadvantage is that the icons in carto will overlap and be on top of your mapbox labels.
