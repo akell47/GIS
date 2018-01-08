@@ -50,7 +50,7 @@ Paste that into the box in carto for Map ID/URL.  Within that URL find the part 
 The mapbox basemap should now be in your carto map. <br>
 <b> icon </b><br>
 Now click on your dataset and we are going to change the icon. Under Style click the color in SIZE/COLOR then click "IMG" then click "Show full collections." <br>
-<img src="https://github.com/akell47/GIS/blob/master/GISImages/mapbox_changeicon.JPG" width="500" height="400"/> <br>
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/mapbox_changeicon.JPG" width="600" height="400"/> <br>
 Now you should see a bunch of icons and click "UPLOAD FILE." https://gis.stackexchange.com/questions/132276/how-to-use-custom-marker-symbols-in-cartodb <br>
 This is supposed to work but the PNG and the SVG image I am uploading is not working... <br>
 <b>Pop-up</b><br>
