@@ -33,27 +33,27 @@ To add the points from your dataset click on the button `+Layer` Then click "No 
 Your map should open back up but if not go back to your *styles* tab and then click on your style (map). The map background will look weird, click add layer. You will now see your points and can style the points. <br>
 <b> Labels *Optional* </b> <br>
 Now we are going to use our dataset to add labels.  Change the dataset from circle to tet by selecting your new dataset, click "Select Data" and change type to "T Symbol." <br>
-<img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxlabel.JPG" width="400" height="400"/> <br>
-Click on "Style" set Text field value to your column with labels. <br>
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxlabel.JPG" width="450" height="400"/> <br>
+Click on "Style" set Text field value to your column with labels. <br><br>
 Alternatively you can add labels in carto instead. The benefit of adding your labels in MapBox instead of carto is that the basemap labels will move out of the way/ not interfere with your data's labels. The disadvantage is that the icons in carto will overlap and be on top of your mapbox labels.
 
 ### Carto
 Set up your spreadsheet you will use in carto for pop-ups. If you know you want to have links go ahead and make one as a regular URL another one as a HTML link `<a href="URL%link.com">Link Label</a>`- just in case one works better than the other. <br>
 In carto navigate to your "dashboard" then you navigate from maps and datasets by clicking the dropdown next to your profile name. <br>
-<img src="https://github.com/akell47/GIS/blob/master/GISImages/carto_navigate.JPG" width="400" height="200"/> <br>
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/carto_navigate.JPG" width="450" height="200"/> <br>
 Click on "New Dataset" it will upload then you will see your data then click "Create Map"
  <br>
-<b> basemap </b>
+<b> basemap </b><br>
 Now we are going to bring in the mapbox basemap.  Click on basemaps then scroll through the basemaps in Source and click on "MAPBOX" Then under Style click the + for Add. You will then be asked for your Map ID and Access Token. To find this go back to your mapbox styles.  In the style you created above click the stacked lines next to Menu - click "Share, develop & use" <br>
-Copy the Integration URL <img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="200" height="150"/> <br>
+Copy the Integration URL <img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="300" height="400"/> <br>
 Paste that into the box in carto for Map ID/URL.  Within that URL find the part after `access_token=` copy and paste that into the Access Token box. Then click ADD BASEMAP. <br>
 The mapbox basemap should now be in your carto map. <br>
-<b> icon </b>
+<b> icon </b><br>
 Now click on your dataset and we are going to change the icon. Under Style click the color in SIZE/COLOR then click "IMG" then click "Show full collections." <br>
 src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxintegrateurl.JPG" width="300" height="450"/> <br>
 Now you should see a bunch of icons and click "UPLOAD FILE." https://gis.stackexchange.com/questions/132276/how-to-use-custom-marker-symbols-in-cartodb <br>
 This is supposed to work but the PNG and the SVG image I am uploading is not working... <br>
-<b>Pop-up</b>
+<b>Pop-up</b><br>
 Click on "POP-UP" to customize the point pop-up. Select which fields you want to show up.  The HTML link works better than the plain URL.  
-<b>Share</b>
+<b>Share</b><br>
 Click "Publish" to share. Cick "Publish" again then the map will change to "Public" and links will show up under "Get the link" and "Embed It." Click on "Embed It" to get the iframe code to drop into your website.
