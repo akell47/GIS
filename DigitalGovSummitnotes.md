@@ -1,4 +1,4 @@
-#### Adopting the Mindset of a serial learner
+#### Adopting the Mindset of a Serial Learner
 - Challenges as opportunities.
 - Create a childlike scientist - accelerate learning as adults
 - why do we learn new skills? - to create value to other peoples lives.
@@ -29,7 +29,7 @@
 - Employee Town Halls - how can IT help better serve your customers
 - no leadership invited - feedback will be more candid
 -  what issues have been preventing you from providing for your customers - legal, political, social, budget
-- DNR - lot of geospatial data - georgia outdoor map
+- DNR - lot of geospatial data - Georgia Outdoor Map
 - large amount of budget spend on geospacial data development over the last 20 yrs. - Town Halls told us this data was needed but difficult to fine
 - DNR created a reliable, convenient, easy-to-find way to access consolidated information about what services DNR provides in the state
 - brought disparate data sources and formats that were distributed across many screens into one correlated display method - Mobile Enabled
