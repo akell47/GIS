@@ -41,4 +41,3 @@ your organization has invested a lot in creating it
 - what new uses could my customers utilize
 - Everything has beauty (data) but not everyone sees it
 <br><br>
-#### Getting most out of your data
