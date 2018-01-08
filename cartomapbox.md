@@ -28,6 +28,6 @@ Create an account. <br>
 Now that you have latitude and longitude, create a new csv file with a field for `labels` that you want to display in the basemap. Click on your profile and go to *Studio*. Go to the datasets tab to upload the geocoded addresses. Give the dataset a name then it will open into a map then you click import to upload your data. Then just click the button to go back to home.  You do not need to upload a dataset to mapbox to use their basemap, but it adds additional customization options to the points we want to display in the final map.<br>
 Within your "studio" click on the home tab, then scroll down under the heading "Get Started" and click "Explore Styles."  (North Star is my favorite.) Click "Add this style."  The style you select is now in your profile under the "styles" tab. <br>
 To add the points from your dataset click on the button `+Layer` Then click "No tileset, click to select" then click "New Tileset" then "Create from dataset."
-<img src="https://github.com/akell47/GIS/blob/master/GISImages/launchjupyterarcgis.JPG"
+<img src="https://github.com/akell47/GIS/blob/master/GISImages/mapboxdataset.JPG"
         width="1000" height="550"/> <br>
 If you know you want to have links go ahead and make one as a regular URL another one as a HTML link `<ahref="URL%link.com">Link Label</a>`- just in case one works better than the other. <br>
