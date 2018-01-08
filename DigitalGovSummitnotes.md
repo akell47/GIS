@@ -5,8 +5,7 @@
 - Bump up your Learning Temp
 - Listen to a mistake and learn from it as quickly as possible
 - Safe space to make mistakes when Learning
-- Round up your Crew
-- Who is your support group; who is on your team?
+- Round up your Crew - Who is your support group; who is on your team?
 - Give your permission to reach and grow
 - Make your Minutes Matter. <br>
 Malcom Galdwell - Outliers -10,000 hrs to master a craft  Multitude of challenges - don't know where to start. You don't need to be masters at a skill to use it in your lives meaningfully. - just focus on adding minutes here and there.
@@ -26,12 +25,12 @@ Malcom Galdwell - Outliers -10,000 hrs to master a craft  Multitude of challenge
 - Town Halls - reach out to see what they want. What can we do better to serve you? How would you like to use our data
 - Employee Town Halls - how can IT help better serve your customers
   - no leadership invited - feedback will be more candid
-  -  what issues have been preventing you from providing for your customers - legal, political, social, budget <br>
+  - what issues have been preventing you from providing for your customers - legal, political, social, budget <br>
 - DNR - lot of geospatial data - Georgia Outdoor Map
 - Large amount of budget spend on geospacial data development over the last 20 yrs. - Town Halls told us this data was needed but difficult to fine
 - DNR created a reliable, convenient, easy-to-find way to access consolidated information about what services DNR provides in the state
 - Brought disparate data sources and formats that were distributed across many screens into one correlated display method - Mobile Enabled
-- http://costalgadnr.org/healthybeaches
+- http://costalgadnr.org/HealthyBeaches
 - http://georgiaoutdoormap.com
 - Look around and see what data already exists
 your organization has invested a lot in creating it
