@@ -21,7 +21,7 @@ Malcom Galdwell - Outliers -10,000 hrs to master a craft  Multitude of challenge
 - Use technology that already exists to add value to the organizations
 - Intersection of Old & New - NOT Out with the Old and in with the New
 - Re-purpose technology and data to get value out of it
-- Growth Hacking finding innovative, inexpensive and often technical hacks tp significantly boost a company's growth.
+- Growth Hacking finding innovative, inexpensive and often technical hacks to significantly boost a company's growth.
 - Town Halls - reach out to see what they want. What can we do better to serve you? How would you like to use our data
 - Employee Town Halls - how can IT help better serve your customers
   - no leadership invited - feedback will be more candid
