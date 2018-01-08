@@ -17,8 +17,8 @@ width="250" height="200"/>
 Dunwoody hires contractors to assess the condition of the stormwater infrastructure.  These are rated as:<br><br>
 -1- IMMEDIATE REPAIR <br>
 <p>
-<img src="https://github.com/akell47/GIS/blob/master/images/Stormwater/Structure_ImmediateRepair.jpg" width="250" height="200"/>
-<img src="https://github.com/akell47/GIS/blob/master/Stromwater/images/Conveyance_ImmediateRepair.jpg" width="250" height="200"/> <br>
+<img src="https://github.com/akell47/GIS/blob/master/Stormwater/images/Structure_ImmediateRepair.JPG" width="250" height="200"/>
+<img src="https://github.com/akell47/GIS/blob/master/Stormwater/images/Conveyance_ImmediateRepair.JPG" width="250" height="200"/> <br>
 </p>
 -2- POOR <br>
 <p>
